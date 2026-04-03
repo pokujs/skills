@@ -1,31 +1,60 @@
+<div align="center">
+<img height="180" alt="Poku's Logo" src="https://raw.githubusercontent.com/wellwelwel/poku/main/.github/assets/readme/poku.svg">
+
 # @pokujs/skills
 
-This repository contains agent-facing documentation for working with Poku.
+Enjoying **Poku**? [Give him a star to show your support](https://github.com/wellwelwel/poku) 🌟
 
-The main entry point is [SKILL.md](./SKILL.md), which describes when to use the skill and provides a concise guide to Poku's testing model. The supporting Markdown files expand on the areas that usually need deeper reference material.
+---
 
-## Contents
+📘 [**Documentation**](./SKILL.md)
 
-- [SKILL.md](./SKILL.md): main skill definition and quick-reference guide
+</div>
+
+---
+
+🧠 [**@pokujs/skills**](https://github.com/pokujs/skills) is a **Poku** skill repository for agents and contributors working with Poku tests.
+
+> [!TIP]
+>
+> Use this repository when you need accurate guidance for writing tests, explaining Poku's execution model, or debugging assertions, configuration, and integration setups.
+
+---
+
+## Quickstart
+
+### Add the Skill
+
+```bash
+npx skills add pokujs/skills
+```
+
+### Start with the Main Guide
+
+- [SKILL.md](./SKILL.md): entry point, overview, and quick reference
 - [assertions.md](./assertions.md): assertion APIs and examples
-- [background-services.md](./background-services.md): background processes, ports, and readiness helpers
+- [background-services.md](./background-services.md): processes, ports, and readiness helpers
 - [configuration.md](./configuration.md): configuration options, reporters, and CLI flags
 - [patterns.md](./patterns.md): unit, integration, and end-to-end testing patterns
 
-## Purpose
-
-Poku is a cross-runtime test runner for Node.js, Bun, and Deno. This repository packages the guidance needed for agents and contributors to answer questions, write tests, and debug test suites accurately.
-
-## Usage
-
-Use this repository as reference material when:
+### Use It For
 
 - writing or debugging tests with Poku
-- explaining how Poku executes test files
-- looking up assertion APIs or runtime-specific behavior
+- explaining how test files execute and isolate state
+- checking assertion APIs and runtime-specific behavior
 - working with background services in integration or e2e tests
-- checking configuration and CLI options
+- looking up configuration and CLI options
+
+---
+
+## How It Is Organized
+
+- `SKILL.md` is the main entry point and should stay concise
+- supporting files hold the detailed reference material that would otherwise make the skill too large
+- the repository is intended to be read incrementally: overview first, then the focused reference file for the task at hand
+
+---
 
 ## Maintenance
 
-When updating the skill, keep `SKILL.md` aligned with the supporting reference files so the overview and the deeper documentation do not drift apart.
+Keep `SKILL.md` aligned with the supporting reference files so the overview and deeper reference material do not drift apart.
