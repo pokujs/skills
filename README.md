@@ -58,3 +58,9 @@ npx skills add pokujs/skills
 ## Maintenance
 
 Keep `SKILL.md` aligned with the supporting reference files so the overview and deeper reference material do not drift apart.
+
+---
+
+## License
+
+[MIT](./LICENSE)
